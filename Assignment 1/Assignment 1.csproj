@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>aspnet-Assignment_1-1CE613E9-962B-4917-9E43-DA1E5595AB86</UserSecretsId>
+    <RootNamespace>Assignment_1</RootNamespace>
+    <StartupObject>Assignment_1.Program</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20200927170453_init.cs" />
+    <Compile Remove="Migrations\20200927170453_init.Designer.cs" />
+    <Compile Remove="Migrations\20200927172929_init.cs" />
+    <Compile Remove="Migrations\20200927172929_init.Designer.cs" />
+    <Compile Remove="Migrations\20200927194820_init.cs" />
+    <Compile Remove="Migrations\20200927194820_init.Designer.cs" />
+    <Compile Remove="Migrations\20200927212204_init.cs" />
+    <Compile Remove="Migrations\20200927212204_init.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.8">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+  </ItemGroup>
+
+</Project>
